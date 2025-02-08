@@ -1,0 +1,54 @@
+2025-02-01 11:06:40,201 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-02-01 11:06:40,201 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("users")
+2025-02-01 11:06:40,201 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-02-01 11:06:40,202 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-02-01 11:06:40,203 - aiogram.dispatcher - INFO - Start polling
+2025-02-01 11:06:40,505 - aiogram.dispatcher - INFO - Run polling for bot @alterwave_bot id=7248445167 - 'alterbot'
+2025-02-01 11:06:40,851 - aiogram.event - INFO - Update id=519036176 is handled. Duration 233 ms by bot id=7248445167
+2025-02-01 11:06:45,123 - aiogram.event - INFO - Update id=519036177 is handled. Duration 139 ms by bot id=7248445167
+2025-02-01 11:06:46,841 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-02-01 11:06:46,843 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.telegram_id, users.username 
+FROM users 
+WHERE users.telegram_id = ?
+2025-02-01 11:06:46,844 - sqlalchemy.engine.Engine - INFO - [generated in 0.00067s] (952501925,)
+2025-02-01 11:06:47,290 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-02-01 11:06:47,291 - aiogram.event - INFO - Update id=519036178 is handled. Duration 453 ms by bot id=7248445167
+2025-02-01 11:06:50,867 - aiogram.event - INFO - Update id=519036179 is handled. Duration 94 ms by bot id=7248445167
+2025-02-01 11:06:51,797 - aiogram.event - INFO - Update id=519036180 is handled. Duration 94 ms by bot id=7248445167
+2025-02-01 11:06:55,774 - aiogram.event - INFO - Update id=519036181 is handled. Duration 94 ms by bot id=7248445167
+2025-02-01 11:06:59,499 - aiogram.event - INFO - Update id=519036182 is not handled. Duration 14 ms by bot id=7248445167
+2025-02-01 11:07:02,424 - aiogram.event - INFO - Update id=519036183 is handled. Duration 94 ms by bot id=7248445167
+2025-02-01 11:07:05,724 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-02-01 11:07:05,724 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.telegram_id, users.username 
+FROM users 
+WHERE users.telegram_id = ?
+2025-02-01 11:07:05,725 - sqlalchemy.engine.Engine - INFO - [cached since 18.88s ago] (952501925,)
+2025-02-01 11:07:05,727 - sqlalchemy.engine.Engine - INFO - DELETE FROM users WHERE users.id = ?
+2025-02-01 11:07:05,727 - sqlalchemy.engine.Engine - INFO - [generated in 0.00035s] (1,)
+2025-02-01 11:07:05,729 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-02-01 11:07:05,949 - aiogram.event - INFO - Update id=519036184 is handled. Duration 219 ms by bot id=7248445167
+2025-02-01 11:07:07,906 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-02-01 11:07:07,906 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.telegram_id, users.username 
+FROM users 
+WHERE users.telegram_id = ?
+2025-02-01 11:07:07,906 - sqlalchemy.engine.Engine - INFO - [cached since 21.06s ago] (952501925,)
+2025-02-01 11:07:07,909 - sqlalchemy.engine.Engine - INFO - INSERT INTO users (telegram_id, username) VALUES (?, ?)
+2025-02-01 11:07:07,910 - sqlalchemy.engine.Engine - INFO - [generated in 0.00046s] (952501925, 'stayserenity')
+2025-02-01 11:07:07,911 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-02-01 11:07:08,031 - aiogram.event - INFO - Update id=519036185 is handled. Duration 125 ms by bot id=7248445167
+2025-02-01 11:07:10,486 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-02-01 11:07:10,486 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.telegram_id, users.username 
+FROM users 
+WHERE users.telegram_id = ?
+2025-02-01 11:07:10,488 - sqlalchemy.engine.Engine - INFO - [cached since 23.64s ago] (952501925,)
+2025-02-01 11:07:10,653 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-02-01 11:07:10,654 - aiogram.event - INFO - Update id=519036186 is handled. Duration 155 ms by bot id=7248445167
+2025-02-01 11:07:12,658 - aiogram.event - INFO - Update id=519036187 is handled. Duration 140 ms by bot id=7248445167
+2025-02-01 11:07:16,728 - aiogram.event - INFO - Update id=519036188 is handled. Duration 296 ms by bot id=7248445167
+2025-02-01 11:07:20,437 - aiogram.event - INFO - Update id=519036189 is not handled. Duration 15 ms by bot id=7248445167
+2025-02-01 11:07:22,882 - aiogram.event - INFO - Update id=519036190 is handled. Duration 92 ms by bot id=7248445167
+2025-02-01 11:09:23,431 - aiogram.event - INFO - Update id=519036191 is handled. Duration 94 ms by bot id=7248445167
+2025-02-01 11:09:27,710 - aiogram.event - INFO - Update id=519036192 is handled. Duration 125 ms by bot id=7248445167
+2025-02-01 11:09:29,869 - aiogram.event - INFO - Update id=519036193 is not handled. Duration 0 ms by bot id=7248445167
+2025-02-01 11:10:32,771 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-01 11:10:33,039 - aiogram.dispatcher - INFO - Polling stopped for bot @alterwave_bot id=7248445167 - 'alterbot'
